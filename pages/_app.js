@@ -12,6 +12,8 @@ const detectBot = () => {
     "headless",
     "slurp",
     "googlebot",
+    "google",
+    "Google",
     "bingbot",
     "yandex",
     "baidu",
