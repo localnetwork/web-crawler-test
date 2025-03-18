@@ -5,6 +5,7 @@ const detectBot = () => {
   if (typeof window === "undefined") return false;
 
   const userAgent = navigator.userAgent.toLowerCase();
+
   const botPatterns = [
     "bot",
     "crawler",
@@ -19,6 +20,7 @@ const detectBot = () => {
     "baidu",
   ];
 
+  alert(userAgent);
   return botPatterns.some((pattern) => userAgent.includes(pattern));
 };
 
